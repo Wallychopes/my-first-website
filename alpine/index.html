@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <title>Document</title>
+</head>
+<body class="m-8 bg-black text-white">  
+    <h1 class="mb-4 text-5xl">Good Day My Fellow Homosapiens</h1>  
+    <div x-data="{count:0}">
+        <button class="bg-white text-black p-2 rounded mb-2" @click="count++">Tuch MY SpongeBob</button>
+        <p>count is <span x-text="count"></span></p>
+    </div>
+</body>
+</html>
